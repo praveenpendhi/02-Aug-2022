@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primitive and Non Primitive</title>
+</head>
+<script>
+    let a = new Number(4);
+    console.log(a)
+
+    const arr = [1,2,3]
+    arr[2] = 5 
+    console.log(arr)
+    
+     let student = {
+        firstName: "Praveen",
+        lastName: "kumar",
+        hobbies: ['fifa','snooker'],
+        intro: function(){
+            console.log('My name is '+this.firstName + this.lastName+ 'and my hobbies are ' + this.hobbies.join(',')+'.');
+        }
+    }
+student.intro();
+    
+    
+
+</script>
+<body>
+    
+</body>
+</html>
